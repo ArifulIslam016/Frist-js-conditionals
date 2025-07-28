@@ -19,3 +19,12 @@ const weight = 68;
 const height = 1.651;
 let BMI = weight / (height * height);
 // Here the BMI
+ if(BMI<18.5){
+    console.log("You are under Weight")    
+}  else if (BMI >= 18.5 && BMI <= 24.9) {
+  console.log("YOur are Normal");
+}  else if (BMI > 24.9 && BMI <= 29.9) {
+  console.log("Tumi Mota");
+} else {
+  console.log("Tumi Abnormal");
+}
